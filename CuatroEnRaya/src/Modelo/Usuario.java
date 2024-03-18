@@ -1,5 +1,5 @@
 package Modelo;
 
 public class Usuario {
-	private String user;
+	private String usuario;
 }
