@@ -1,20 +1,21 @@
 package Modelo;
 
 public class Usuario {
-	private String usuario;
+	private String nombre;
 	private int edad;
 	
+	
 	public Usuario(String nombre, int edad) {
-		this.usuario = nombre;
+		this.nombre = nombre;
 		this.edad = edad;
 	}
 
 	public String getUsuario() {
-		return usuario;
+		return nombre;
 	}
 
 	public void setUsuario(String usuario) {
-		this.usuario = usuario;
+		this.nombre = usuario;
 	}
 
 	public int getEdad() {
